@@ -1,0 +1,156 @@
+
+    
+.nav{
+    background-color: blue;
+    text-align: center;
+    border-width: 2px 2px 0 2px;
+    border-style: solid;
+    border-color: black;
+}
+    
+.nav ul {    
+    display: inline-block;
+    border-radius: 15px;
+    list-style-type: none;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li{
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 9px;
+    text-decoration: none;
+    background-color: orange;
+    font-family: Arial, sans-serif;
+}
+
+a:link {
+    color: blue;
+}
+
+li:visited {
+    color: red;
+}
+
+li:hover {
+    color: green;
+}
+
+li:active {
+    background-color: black;
+}
+
+.header {
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    margin: 0px 0px;
+    padding: 15px 7px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.side {
+    box-sizing: border-box;
+    padding-left: 9px;
+    padding-bottom: 6px;
+    background-color: limegreen;
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    width: calc(27% - 4px);
+    height:675px;
+    float: left;
+}
+
+.main {
+        box-sizing: border-box;
+        background-color: beige;
+        border-width: 0 2px 2px 0;
+        border-style: solid;
+        border-color: black;
+        margin: 0;
+        float: left;
+        width: calc(73% - 2px);
+        height:675px;
+            
+
+}
+
+.content {
+        box-sizing: border-box;
+        display: inline-block
+        background-color: beige;
+        border-width: 2px 2px 2px 2px;
+        border-style: solid;
+        border-color: black;
+        margin: 0;
+        width: calc(100% - 4px);
+        height: 800px;
+        float: left;
+}
+
+.footer {
+       box-sizing: border-box;
+       padding-left: 9px;
+       padding-top: 6px;
+       background-color: yellow;
+       border-width: 0 2px 2px 2px;
+       border-style: solid;
+       border-color: black;
+       margin: 0;
+       width: calc(100% - 4px);
+       height: 125px:
+       float:left;
+ 
+ }
+
+.footer ul {
+    
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 6px 4px 6px 4px; 
+    overflow: hidden;
+    
+}
+
+footer li {
+    display: inline-block;
+    color: beige;
+    padding: 5px 6px;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 2px 2px 2px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
